@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #E5E5E5;
+}
+
+body{
+    background: url(../img/images.jfif) no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#cartao{
+    width: 100%;
+    max-width: 500px;
+    backdrop-filter: blur(20px);
+    border: 2px solid gray;
+    border-radius: 12px;
+    padding: 80px 80px 15px 80px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#logo{
+    border-radius: 50%;
+    width: 238px;
+    height: 238px;
+    margin: 0 auto;
+}
+
+#logo img{
+    border-radius: 50%;
+    margin-top: -60px;
+}
+
+.titulo{
+    color: #ffff;
+    text-align: center;
+    font-weight: 900;
+    margin-top: -50px;
+    border-bottom: 1px solid #ccc;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 15.33333px 0;
+    border-radius: 17px;
+    transition: all 0.4s;
+}
+
+
+#menu li{
+    margin: 15.33333px 0;
+    border-radius: 17px;
+    transition: all 0.4s;
+    display: inline;
+}
+
+#menu ul:hover{
+    color: #333333;
+    font-weight: 600;
+    transform: scale(1.1);
+}
+
+#menu ul:active{
+    color: #333333;
+    font-weight: 600;
+}
+
+#menu ul a{
+
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.desc{
+    width: 250px;
+    color: #ffff;
+}
+#description{
+    color: #E5E5E5;
+    font-weight: 600;
+    font-size: medium;
+}
+#aboutme{
+    font-size: small;
+    font-weight: 600;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #cartao{
+        width: 100%;
+        max-width: 390px;
+        backdrop-filter: blur(20px);
+        border: 2px solid gray;
+        border-radius: 12px;
+        padding: 60px 60px 10px 60px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #menu li{
+        background-color: #E5E5E5;
+        margin: 58px 0;
+        border-radius: 17px;
+        transition: all 0.4s;
+    }
+
+    #menu li a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        padding: 20px 0;
+        font-size: 20px;
+    }
+
+    #logo{
+        border-radius: 50%;
+        width: 238px;
+        height: 238px;
+        margin: 0 auto;
+    }
+    
+    #logo img{
+        border-radius: 50%;
+        margin-top: -40px;
+    }
+
+    .titulo{
+        color: #ffff;
+        text-align: center;
+        font-weight: 900;
+        margin-top: -30px;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #cartao{
+        width: 100%;
+        max-width: 576px;
+        backdrop-filter: blur(20px);
+        border: 2px solid gray;
+        border-radius: 12px;
+        padding: 60px 100px 10px 100px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #menu li{
+        background-color: #E5E5E5;
+        margin: 58px 0;
+        border-radius: 17px;
+        transition: all 0.4s;
+    }
+
+    #menu li a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        padding: 15px 0;
+        font-size: 20px;
+    }
+
+    #logo{
+        border-radius: 50%;
+        width: 238px;
+        height: 238px;
+        margin: 0 auto;
+    }
+    
+    #logo img{
+        border-radius: 50%;
+        margin-top: -40px;
+    }
+
+    .titulo{
+        color: #ffff;
+        text-align: center;
+        font-weight: 900;
+        margin-top: -30px;
+        border-bottom: 1px solid #ccc;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #cartao{
+        width: 100%;
+        max-width: 768px;
+        backdrop-filter: blur(20px);
+        border: 2px solid gray;
+        border-radius: 12px;
+        padding: 60px 150px 10px 150px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #menu li{
+        background-color: #E5E5E5;
+        margin: 58px 0;
+        border-radius: 17px;
+        transition: all 0.4s;
+    }
+
+    #menu li a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        padding: 15px 0;
+        font-size: 20px;
+    }
+
+    #logo{
+        border-radius: 50%;
+        width: 238px;
+        height: 238px;
+        margin: 0 auto;
+    }
+    
+    #logo img{
+        border-radius: 50%;
+        margin-top: -40px;
+    }
+
+    .titulo{
+        color: #ffff;
+        text-align: center;
+        font-weight: 900;
+        margin-top: -30px;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #cartao{
+        width: 100%;
+        max-width: 992px;
+        backdrop-filter: blur(20px);
+        border: 2px solid gray;
+        border-radius: 12px;
+        padding: 60px 190px 10px 190px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #menu li{
+        background-color: #E5E5E5;
+        margin: 58px 0;
+        border-radius: 17px;
+        transition: all 0.4s;
+    }
+
+    #menu li a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        padding: 15px 0;
+        font-size: 20px;
+    }
+
+    #logo{
+        border-radius: 50%;
+        width: 238px;
+        height: 238px;
+        margin: 0 auto;
+    }
+    
+    #logo img{
+        border-radius: 50%;
+        margin-top: -40px;
+    }
+
+    .titulo{
+        color: #ffff;
+        text-align: center;
+        font-weight: 900;
+        margin-top: -30px;
+        border-bottom: 1px solid #ccc;
+    }
+}
