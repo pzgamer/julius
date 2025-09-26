@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="caio-chan.css">
+  <title>Lanchonete do Gianildo</title>
+</head>
+<body>
+    <link rel="icon" href="img/ChatGPT Image 12 de set. de 2025, 14_24_26.png">
+  <header>
+    <h1>Lanchonete do Gianildo</h1>
+    <p>O melhor Podrão de Belford Roxo</p>
+  </header>
+
+  <div class="container">
+    <h2>Sanduíches</h2>
+    <ul>
+      <li><img src="img/X-Henrique.avif" alt="" width="55" height="55"><a href="#henrique">X-Wukong</a><span>R$ 12,00</span></li>
+      <li><img src="img/X-salada.avif" alt="" width="55" height="55"><a href="#luan">X-Kung-fu</a><span>R$ 14,00</span></li>
+      <li><img src="img/ovo.avif" alt="" width="55" height="55"><a href="#floki">X-Shaolin</a> <span>R$ 16,00</span></li>
+      <li><img src="img/202412032028_GN55_i.avif" alt="" width="55" height="55"><a href="#X-Sueladas">X-Luansantana</a><span>R$ 20,00</span></li>
+    </ul>
+
+    <h2>Porções</h2>
+    <ul>
+      <li><img src="img/batata pequena.jpg" alt="" width="55" height="55"><a href="batatap"> Batata Frita (P) </a><span>R$ 10,00</span></li>
+      <li><img src="img/batata media.webp" alt="" width="55" height="55"><a href="batatam"> Batata Frita (M) </a><span>R$ 12,50</span></li>
+      <li><img src="img/batata grande.jpeg" alt="" width="55" height="55"><a href="batatag"> Batata Frita (G) </a><span>R$ 15,00</span></li>
+      <li><img src="img/frango-passarinho-molho-pimenta.jpg" alt="" width="55" height="55"><a href="frango"> Frango a Passarinho </a><span>R$ 25,00</span></li>
+    </ul>
+
+    <h2>Bebidas</h2>
+    <ul>
+      <li id="refri">Refrigerante Lata <span>R$ 6,00</span></li>
+      <li id="sucos">Suco Natural <span>R$ 8,00</span></li>
+      <li id="agua">Água Mineral <span>R$ 4,00</span></li>
+    </ul>
+    <hr>
+    <h2 id="henrique">X-Wukong</h1>
+        <div class="item">
+            <img src="img/X-Henrique.avif" alt="saitama" width="530" height="400">
+        </div>
+        <h4>Pão de Hamburguer, suculento burguer de carne tradicional industrializada e mussarela fatiada, alface americana fresca, batata palha, katchup, vinagrete na chapa( cebola branca, tomate e um toque de oregano para dar mais sabor).</h4>
+    <hr>
+    <h2 id="luan">X-Kung-Fu</h2>
+    <div class="item">
+        <img src="img/X-salada.avif" alt="saitama" width="530" height="400">
+    </div>
+     <h4>Pão de Hamburguer, suculento burguer de carne tradicional industrializada e mussarela fatiada, alface americana fresca, batata palha, katchup, vinagrete na chapa( cebola branca, tomate e um toque de oregano para dar mais sabor).</h4>
+    <hr>
+    <h2 id="floki">X-Shaolin</h2>
+    <div class="item">
+        <img src="img/ovo.avif" alt="" width="530" height="400">
+    </div>
+    <h4>Pão de Hamburguer, suculento burguer de carne tradicional industrializada e mussarela fatiada, batata palha, ovo ao ponto suculento, alface americana fresca, katchup, vinagrete na chapa( cebola branca, tomate e um toque de oregano para dar mais sabor).</h4>
+        <hr>
+    <h2 id="X-Sueladas">X-Luansantana</h2>
+    <div class="item">
+        <img src="img/202412032028_GN55_i.avif" alt="" width="530" height="400">
+    </div>
+    <h4>Pão de Hamburguer, suculento burguer de carne tradicional industrializada e mussarela fatiada, batata palha bacon picado, ovo ao ponto suculento, alface americana fresca, katchup, vinagrete na chapa( cebola branca, tomate e um toque de oregano para dar mais sabor).</h4>
+  </div>
+</body>
+<footer>
+    <h5>Nossos contatos: +55 12-99999-9999</h5>
+</footer>
+</html>
